@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/background"
+    android:background="@drawable/mx_pic" >
+    <TextView
+        android:id="@+id/ScreenButton"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#C0C0C0"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="屏幕背光" 
+        android:textSize="50dp"/>
+
+    <ToggleButton
+        android:id="@+id/CameraButton"
+      android:background="@drawable/kaidd"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="125dp"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:textOff="开灯"
+        android:textOn="关灯"
+        android:textSize="26dip" />
+
+</LinearLayout>
